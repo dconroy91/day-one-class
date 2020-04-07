@@ -1,0 +1,57 @@
+header {
+   border: solid 1px goldenrod;
+   
+   
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+    
+}
+header ul li{
+    margin: 1em;
+    padding: 1em;
+    list-style-type: none;
+    
+}
+
+.disabled {
+ color: gray;
+}
+
+a .disabled, a.disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+section {
+
+}
+
+article section:nth-child(3){
+    color: red;
+}
+
+.parent div:first-child{
+    color: red;
+}
+
+.parent div:nth-child(3){
+   color:blue
+    
+}
+
+.parent div h4:nth-child(2){
+    background-color: red;
+}
+
+.parent div:nth-child(3) + h4{
+    background-color: blue ;
+}
+    
